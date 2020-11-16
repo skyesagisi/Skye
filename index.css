@@ -8,6 +8,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 	color: #1a1b1f;
 }
+
+/* Navigation Header */
 	
 #navigation {
 	width: auto;
@@ -22,9 +24,12 @@ body {
 }
 
 #nav-wrap {
-	margin-top: -105px;
+	--space: 4.5em;
+	margin-top: -120px;
 	text-align: right;
-	display: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
 .nav-item {
@@ -55,14 +60,17 @@ body {
 	
 }
 
-#intro-wrap {
-	margin-top: 40px;
-	margin-bottom: 140px;
+/* Name and Skills Div */
+
+#intro-wrap * {
+	--space: 350px;
+	margin-top: 0;
+  	margin-bottom: 0;
 	
 }
 
 .skills {
-	margin-top: -50px;
+	--space: 5rem;
 	font-size: 20px;
 	line-height: 34px;
 	text-transform: uppercase;
@@ -73,24 +81,7 @@ body {
 	display: block;
 }
 
-.div-block {
-	width: auto;
-	height: auto;
-	display: block;
-}
-
-h1 {
-	margin-top: -5px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 55px;
-	font-weight: 400px lighter;
-	line-height: 80px;
-	text-transform: uppercase;
-	font-weight: normal;
-	letter-spacing: -4px;
-	text-indent: 35px;
-	text-align: center;
-}
+/* Skills Subheader Animation */
 
 .fade-in{
 	animation:fade-in 2s ease-in-out both
@@ -105,17 +96,47 @@ h1 {
 
 .photography{
 	display: inline;
-	animation: fade-in-bottom 3.1s ease-in-out 3.1s both
+	animation: fade-in-bottom 2.7s ease-in-out 2.7s both
 }
 
 .web-design{
 	display: inline;
-	animation: fade-in-bottom 4.2s ease-in-out 4.2s both
+	animation: fade-in-bottom 3.1s ease-in-out 3.1s both
 }
 
 .oahu-hi{
 	display: inline;
-	animation: fade-in-bottom 5.3s ease-in-out 5.3s both
+	animation: fade-in-bottom 3.3s ease-in-out 3.3s both
 } 
 
 @keyframes fade-in-bottom{0%{transform:translateY(50px);opacity:0}100%{transform:translateY(0);opacity:1}}
+
+/* Headers */
+
+h1 {
+	margin-top: -5px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 55px;
+	font-weight: 400px lighter;
+	line-height: 80px;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: -4px;
+	text-indent: 35px;
+	text-align: center;
+}
+
+/* Empty Div Block */
+
+.div-block {
+	width: auto;
+	height: auto;
+	display: block;
+	
+}
+
+#portrait {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
