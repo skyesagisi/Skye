@@ -1,6 +1,6 @@
 /*
 Error: Invalid CSS after "...display=swap');": expected selector or at-rule, was "}"
-        on line 7 of D:\Documents\GitHub\skye\other\index.scss
+        on line 7 of D:\Documents\GitHub\other\index.scss
 
 2: /* CSS Document *\/
 3: 
@@ -15,7 +15,7 @@ Error: Invalid CSS after "...display=swap');": expected selector or at-rule, was
 12: }
 
 Backtrace:
-D:\Documents\GitHub\skye\other\index.scss:7
+D:\Documents\GitHub\other\index.scss:7
 C:/Program Files/Adobe/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
 C:/Program Files/Adobe/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
 C:/Program Files/Adobe/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:42:in `parse'
@@ -32,4 +32,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver 2021/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...display=swap');\": expected selector or at-rule, was \"}\"\A         on line 7 of D:\Documents\GitHub\skye\other\index.scss\A \A 2: /* CSS Document */\A 3: \A 4: /* Montserrat Font Import */\A 5: \A 6: @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans&display=swap');\A 7: }\A 8: \A 9: body, html{\A 10: 	width: 100%;\A 11: 	height: 100%;\A 12: }"; }
+  content: "Error: Invalid CSS after \"...display=swap');\": expected selector or at-rule, was \"}\"\A         on line 7 of D:\Documents\GitHub\other\index.scss\A \A 2: /* CSS Document */\A 3: \A 4: /* Montserrat Font Import */\A 5: \A 6: @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans&display=swap');\A 7: }\A 8: \A 9: body, html{\A 10: 	width: 100%;\A 11: 	height: 100%;\A 12: }"; }
