@@ -117,7 +117,7 @@ a:hover {
 }
 
 .portfolio-hover img {
-	display: inline-flex;
+	display: flex;
 	margin-top: 150px;
 	margin-left: 300px;
 	margin-right: 500px;
