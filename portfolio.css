@@ -88,7 +88,6 @@ a:hover {
 	height: 100%;
 	display: flex;
 	flex: auto 0 0;
-	overflow-x: auto;
 	overflow-y: none;
 	scrollbar-width: none;
 	-ms-overflow-style: none;
@@ -120,15 +119,18 @@ a:hover {
 	height: 100%;
 	max-height: 500px;
 	max-width: 500px;
-	overflow-y: none;
+	overflow-y: hidden;
 	overflow-x: auto;
   	transform-origin: 15%;
   	transition: transform 3s ease;
 	scrollbar-width: none;
 	-ms-overflow-style: none;
-	box-shadow: 0px 0px 40px -5px #564333;
+	box-shadow: 0px 0px 30px -5px #564333;
+	border-bottom: 85px solid white;
+	border-top: 50px solid white;
+	border-left: 15px solid white;
+	border-right: 15px solid white;
 	filter: sepia(100%) grayscale(50%);
-	
 }
 
 .portfolio-hover::-webkit-scrollbar { 
@@ -139,5 +141,4 @@ a:hover {
   	transform: scale(1.3);
 	filter: sepia(0%) grayscale(0%);
 	z-index: 2;
-
 }
